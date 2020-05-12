@@ -1,0 +1,11 @@
+Zunker, Mariella, 69420, s4743082@stud.uni-frankfurt.de
+Mayer, Robin, 69420, s...
+Nover, Nils, 6983668, s8293922@stud.uni-frankfurt.de
+
+
+Goal (max. 100 words):
+We plan on performing a data science project. We use the python package pandas for data analysis.
+
+
+Datasources (2-3 URLs): 
+https://www.dataquest.io/
