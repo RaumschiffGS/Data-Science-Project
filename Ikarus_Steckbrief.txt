@@ -8,4 +8,5 @@ We plan on performing a data science project. We use the python package pandas f
 
 
 Datasources (2-3 URLs): 
-https://www.dataquest.io/
+placeholder.com
+placeholder2.com
