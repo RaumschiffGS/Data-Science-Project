@@ -8,5 +8,6 @@ We plan on performing a data science project. We use the python package pandas f
 
 
 Datasources (2-3 URLs): 
-placeholder.com
-placeholder2.com
+kaggle.com
+destatis.de
+govdata.de
