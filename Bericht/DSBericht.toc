@@ -1,0 +1,8 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Fragestellung und Auswahl der Datens\IeC {\"a}tze}{2}{section.1}
+\contentsline {section}{\numberline {2}Datenaufbereitung}{2}{section.2}
+\contentsline {section}{\numberline {3}Datenauswertung}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Vergleich der Stickoxidwerte zwischen den Bundesl\IeC {\"a}ndern}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Vergleich der Stickoxidwerte zwischen ausgew\IeC {\"a}hlten l\IeC {\"a}ndlichen und st\IeC {\"a}dtischen Gebieten}{3}{subsection.3.2}
+\contentsline {section}{\numberline {4}Interpretation der Ergebnisse}{3}{section.4}
+\contentsline {section}{\numberline {5}Diskussion}{3}{section.5}
