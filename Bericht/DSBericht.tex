@@ -52,13 +52,38 @@ Die Datensätze wurden zuerst isoliert betrachtet. Zur Messung der Luftwerte exi
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=10.5cm]{NO2Entwicklung.png}
+	\includegraphics[width=8.5cm]{NO2Entwicklung.png}
 	\caption{Entwicklung der Stickoxide über die Zeit. Blau: Städtisch. Gelb: Vorstädtisch. Grün: Ländlich.}
 	\label{fig:NO2Entwicklung}
 \end{figure}
 
-Zur weiteren Analyse wurden die Datensätze im Anschluss zusammengefügt. Dabei sollten die Stickstoffdaten über die Orte den Kraftfahrzeugdaten zugeordnet werden. Um Dopplungen zu vermeiden, wurde dazu pro Jahr und Bundesland überprüft, ob eine Stadt im Stickstoff-Datensatz auch im KfZ-Datensatz existiert und bei Übereinstimmung wurden die Daten in neuen Spalten hinzugefügt. Dieses Merging stellte eine größere Herausforderung dar als zunächst angenommen, da die Datensätze nicht die gleiche Zuordnung der Werte zu den Orten enthielten, wie zunächst angenommen. So bezogen sich die Daten des Kraftfahrtbundesamtes auf die regulären Landkreise, die Messungen des Umweltbundesamtes waren jedoch lediglich dem nächsten Ort zugewiesen und nicht der offiziellen Kreisstadt. Diese Zuordnung führte dazu, dass beim Merging ländliche Gebiete weniger gut zugeordnet werden konnten als größere Städte.\\
-Zudem ist zu beachten, dass einige Städte in den Datensätzen mehrfach vorkommen (z.B. Weimar Schwanseestr. und Weimar Steubenstr.)
+Zur weiteren Analyse wurden die Datensätze im Anschluss zusammengefügt. Dabei sollten die Stickstoffdaten über die Orte den Kraftfahrzeugdaten zugeordnet werden. Um Dopplungen zu vermeiden, wurde dazu pro Jahr und Bundesland überprüft, ob eine Stadt im Stickstoff-Datensatz auch im KfZ-Datensatz existiert und bei Übereinstimmung wurden die Daten in neuen Spalten hinzugefügt. Dieses Merging stellte eine größere Herausforderung dar als zunächst angenommen, da die Datensätze nicht die gleiche Zuordnung der Werte zu den Orten enthielten, wie zunächst angenommen. So bezogen sich die Daten des Kraftfahrtbundesamtes auf die regulären Landkreise, die Messungen des Umweltbundesamtes waren jedoch lediglich dem nächsten Ort zugewiesen und nicht der offiziellen Kreisstadt. Diese Zuordnung führte dazu, dass beim Merging ländliche Gebiete weniger gut zugeordnet werden konnten als größere Städte (\ref{fig:Kategorien}).\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=4.5cm]{Kategorien.jpg}
+	\caption{Anzahl an Orten in den Kategorien, die zugeordnet werden konnten, beispielhaft am Jahr 2017.}
+	\label{fig:Kategorien}
+\end{figure}
+
+Zudem ist zu beachten, dass einige Städte in den Datensätzen mehrfach vorkommen (z.B. Weimar Schwanseestr. und Weimar Steubenstr.) (WIE wurde das noch mal gehandhabt) \\
+Im Anschluss an die Zuordnung wurden die Stickstoffwerte gegen die Fahrzeugzahlen aufgetragen (\ref{fig:NO2Insgesamt}). Dabei konnte bereits ein grober linearer Trend erkannt werden, der später noch mithilfe linearer Regression genauer aufgezeigt werden sollte. Außerdem zeigte sich, dass zwei Städte eine extrem hohe Anzahl an gemeldeten Fahrzeugen aufwiesen. (NUR Das jahr)
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=8.5cm]{NO2Insgesamt.jpg}
+	\caption{Stickstoffwerte in Abhängigkeit der Fahrzeugzahlen, beispielhaft am Jahr 2017.}
+	\label{fig:NO2Insgesamt}
+\end{figure}
+
+Als nächstes wurde der Anteil an Dieselfahrzeugen betrachtet und die Stickstoffwerte gegen diesen aufgetragen (\ref{fig:dieselanteil}).
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=8.5cm]{dieselanteil.jpg}
+	\caption{Stickstoffwerte in Abhängigkeit des Dieselanteil, beispielhaft am Jahr 2017.}
+	\label{fig:dieselanteil}
+\end{figure}
 
 \subsection{Vergleich der Stickoxidwerte zwischen den Bundesländern}
 
@@ -67,5 +92,7 @@ Zudem ist zu beachten, dass einige Städte in den Datensätzen mehrfach vorkomme
 \section{Interpretation der Ergebnisse}
 
 \section{Diskussion}
+
+Frage: dort wo autos gemeldet werden nicht unbedingt gefahren (Hamburg+Hannover), Aufwand pdf-Parsen --> nur neuere Daten, Matching der Orte in beiden Datensätzen, Städte mehrmals aufgezählt,
 
 \end{document}
