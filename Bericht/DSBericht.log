@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.21)  24 JUN 2020 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.21)  24 JUN 2020 13:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -713,9 +713,9 @@ File: linregdieselanteil.jpg Graphic file (type jpg)
 Package pdftex.def Info: linregdieselanteil.jpg  used on input line 90.
 (pdftex.def)             Requested size: 241.84842pt x 157.64882pt.
 
-Overfull \hbox (12.3781pt too wide) in paragraph at lines 103--104
-\OT1/cmr/m/n/10.95 Frage: dort wo au-tos gemeldet wer-den nicht unbe-d-ingt gef
-ahren (Ham-burg+Hannover),
+Overfull \hbox (29.3781pt too wide) in paragraph at lines 103--104
+[]\OT1/cmr/m/n/10.95 Frage: dort wo au-tos gemeldet wer-den nicht unbe-d-ingt g
+efahren (Ham-burg+Hannover),
  []
 
 [5 <./linreginsgesamt.jpg> <./linregdieselanteil.jpg>]
@@ -740,13 +740,13 @@ Here is how much of TeX's memory you used:
  9556 multiletter control sequences out of 15000+600000
  8811 words of font info for 31 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 28i,6n,28p,968b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,6n,28p,968b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on DSBericht.pdf (6 pages, 172166 bytes).
+Output written on DSBericht.pdf (6 pages, 172195 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  91 compressed objects within 1 object stream
