@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.21)  24 JUN 2020 13:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.21)  24 JUN 2020 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -632,124 +632,125 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 17.
+<uniemblem.jpg, id=32, 722.7pt x 481.8pt>
+File: uniemblem.jpg Graphic file (type jpg)
+<use uniemblem.jpg>
+Package pdftex.def Info: uniemblem.jpg  used on input line 20.
+(pdftex.def)             Requested size: 298.75394pt x 199.17134pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./DSBericht.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./uniemblem.jpg>] (./DSBer
+icht.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 5.
 )
 \tf@toc=\write4
 \openout4 = `DSBericht.toc'.
 
-
-Overfull \hbox (17.86989pt too wide) in paragraph at lines 24--26
-\OT1/cmr/m/n/10.95 [QUELLE] sowie des Kraft-fahrt-bun-de-samtes (KBA) [QUELLE] 
-genutzt. Die Datens^^?atze
- []
-
-<BeispielNO2.png, id=49, 593.21625pt x 115.18031pt>
+<BeispielNO2.png, id=50, 593.21625pt x 115.18031pt>
 File: BeispielNO2.png Graphic file (type png)
 <use BeispielNO2.png>
-Package pdftex.def Info: BeispielNO2.png  used on input line 29.
+Package pdftex.def Info: BeispielNO2.png  used on input line 34.
 (pdftex.def)             Requested size: 298.75394pt x 58.00829pt.
-<BeispielKFZ.png, id=50, 557.08125pt x 169.38281pt>
+<BeispielKFZ.png, id=51, 557.08125pt x 169.38281pt>
 File: BeispielKFZ.png Graphic file (type png)
 <use BeispielKFZ.png>
-Package pdftex.def Info: BeispielKFZ.png  used on input line 36.
+Package pdftex.def Info: BeispielKFZ.png  used on input line 41.
 (pdftex.def)             Requested size: 298.75394pt x 90.83987pt.
-[2 <./BeispielNO2.png> <./BeispielKFZ.png>]
-Overfull \hbox (8.24142pt too wide) in paragraph at lines 53--54
-\OT1/cmr/m/n/10.95 Ein-teilung wurde zur Vere-in-fachung zu den drei Kat-e-gori
-en "st^^?adtisch", "vorst^^?adtisch"
+ [2 <./BeispielNO2.png> <./BeispielKFZ.png>]
+<Heatmaps.png, id=62, 443.40656pt x 621.82312pt>
+File: Heatmaps.png Graphic file (type png)
+<use Heatmaps.png>
+Package pdftex.def Info: Heatmaps.png  used on input line 56.
+(pdftex.def)             Requested size: 341.43306pt x 478.84323pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-
- []
-
-<NO2Entwicklung.png, id=61, 271.76532pt x 180.675pt>
+<NO2Entwicklung.png, id=64, 271.76532pt x 180.675pt>
 File: NO2Entwicklung.png Graphic file (type png)
 <use NO2Entwicklung.png>
-Package pdftex.def Info: NO2Entwicklung.png  used on input line 57.
+Package pdftex.def Info: NO2Entwicklung.png  used on input line 69.
 (pdftex.def)             Requested size: 241.84842pt x 160.79196pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
 [3]
-<Kategorien.jpg, id=68, 193.47281pt x 78.2925pt>
+<Kategorien.jpg, id=72, 193.47281pt x 78.2925pt>
 File: Kategorien.jpg Graphic file (type jpg)
 <use Kategorien.jpg>
-Package pdftex.def Info: Kategorien.jpg  used on input line 66.
+Package pdftex.def Info: Kategorien.jpg  used on input line 78.
 (pdftex.def)             Requested size: 128.0374pt x 51.81297pt.
 
 
-LaTeX Warning: Reference `fig:linregisngesamt' on page 4 undefined on input lin
-e 75.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<linreginsgesamt.jpg, id=69, 274.77657pt x 201.00093pt>
+[4 <./Heatmaps.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:linregisngesamt' on page 5 undefined on input lin
+e 87.
+
+<linreginsgesamt.jpg, id=78, 274.77657pt x 201.00093pt>
 File: linreginsgesamt.jpg Graphic file (type jpg)
 <use linreginsgesamt.jpg>
-Package pdftex.def Info: linreginsgesamt.jpg  used on input line 79.
+Package pdftex.def Info: linreginsgesamt.jpg  used on input line 91.
 (pdftex.def)             Requested size: 241.84842pt x 176.91815pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Overfull \hbox (32.87894pt too wide) in paragraph at lines 84--87
-\OT1/cmr/m/n/10.95 Die Auswer-tung wurde schlie^^Ylich noch ein-mal unter Auss-
-chluss der Aus-rei^^Yer durchgef^^?uhrt,
- []
-
-[4 <./NO2Entwicklung.png> <./Kategorien.jpg>]
-<linregdieselanteil.jpg, id=76, 287.57437pt x 187.45032pt>
+[5 <./NO2Entwicklung.png> <./Kategorien.jpg>]
+<linregdieselanteil.jpg, id=84, 287.57437pt x 187.45032pt>
 File: linregdieselanteil.jpg Graphic file (type jpg)
 <use linregdieselanteil.jpg>
-Package pdftex.def Info: linregdieselanteil.jpg  used on input line 90.
+Package pdftex.def Info: linregdieselanteil.jpg  used on input line 102.
 (pdftex.def)             Requested size: 241.84842pt x 157.64882pt.
 
-Overfull \hbox (29.3781pt too wide) in paragraph at lines 103--104
-[]\OT1/cmr/m/n/10.95 Frage: dort wo au-tos gemeldet wer-den nicht unbe-d-ingt g
-efahren (Ham-burg+Hannover),
+Underfull \hbox (badness 10000) in paragraph at lines 113--117
+
  []
 
-[5 <./linreginsgesamt.jpg> <./linregdieselanteil.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+[6 <./linreginsgesamt.jpg> <./linregdieselanteil.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
  (./DSBericht.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
 Package rerunfilecheck Info: File `DSBericht.out' has not changed.
 (rerunfilecheck)             Checksum: B1E77072277837CC3238F0F04162C7F3;476.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 6324 strings out of 494923
- 91370 string characters out of 6180742
- 188244 words of memory out of 5000000
- 9556 multiletter control sequences out of 15000+600000
+ 6337 strings out of 494923
+ 91561 string characters out of 6180742
+ 189409 words of memory out of 5000000
+ 9565 multiletter control sequences out of 15000+600000
  8811 words of font info for 31 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 28i,6n,28p,968b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,6n,28p,974b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on DSBericht.pdf (6 pages, 172195 bytes).
+Output written on DSBericht.pdf (7 pages, 339888 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 87 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
+ 23 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
