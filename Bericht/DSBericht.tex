@@ -21,8 +21,8 @@
 
 \section{Fragestellung und Auswahl der Datensätze}
 
-Die Frage der Schädlichkeit von Stickoxiden und deren Zusammenhang mit Dieselfahrzeugen hat in der Vergangenheit die Debatte um die Verkehrswende dominiert. Um einen Überblick über die Rolle von verschiedenen Antriebsarten zu bekommen, sollten in diesem Projekt Daten zu Antriebsdaten mit Stickoxidwerten in Deutschland verglichen werden. Hierbei sind einerseits die Unterschiede in verschiedenen Stadt- und Landkreisen zu berücksichtigen, auf der anderen Seite sollte auch die zeitliche Entwicklung und der lokale Einfluss von sogenannten Umweltzonen betrachtet werden. In Umweltzonen sind als nicht-schadstoffarm gekennzeichnete Fahrzeuge verboten, um die Luftqualität zu verbessern. \\
-Zu Analyse der Fragestellung wurden Datensätze des Umweltbundesamtes [QUELLE] sowie des Kraftfahrtbundesamtes [QUELLE] genutzt. Die Datensätze des Umweltbundesamtes lagen als .xlx-Dateien vor und beinhalteten Informationen zu jahresgemittelten Stickoxidwerten an verschiedenen deutschen Messstationen(\ref{fig:BeispielNO2}), während das Kraftfahrtbundesamt hauptsächlich .pdf-Dateien veröffentlichte, in denen die zu einem Stichtag zugelassenen Anzahlen von Autos nach Antriebsart in den jeweiligen Orten aufgelistet waren (\ref{fig:BeispielKFZ}). Beide Quellen stellen Datensätze nach Jahr zu Verfügung.
+Die Frage der Schädlichkeit von Stickoxiden und deren Zusammenhang mit Dieselfahrzeugen hat in der Vergangenheit die Debatte um die Verkehrswende dominiert. Um einen Überblick über die Rolle von verschiedenen Antriebsarten zu bekommen, sollten in diesem Projekt Daten zu Antriebsdaten mit Stickoxidwerten in Deutschland verglichen werden. \\
+Zu Analyse der Fragestellung wurden Datensätze des Umweltbundesamtes (UBA) [QUELLE] sowie des Kraftfahrtbundesamtes (KBA) [QUELLE] genutzt. Die Datensätze des UBA lagen als .xlx-Dateien vor und beinhalteten Informationen zu jahresgemittelten Stickoxidwerten an verschiedenen deutschen Messstationen(\ref{fig:BeispielNO2}), während das KBA hauptsächlich .pdf-Dateien veröffentlichte, in denen die zu einem Stichtag zugelassenen Anzahlen von Autos nach Antriebsart in den jeweiligen Orten aufgelistet waren (\ref{fig:BeispielKFZ}). Beide Quellen stellen Datensätze nach Jahr zu Verfügung.
 
 \begin{figure}[h!]
 	\centering
@@ -43,12 +43,14 @@ Zu Analyse der Fragestellung wurden Datensätze des Umweltbundesamtes [QUELLE] s
 Zunächst mussten die Datensätze in ein Format konvertiert werden, in dem sie sinnvoll verarbeitet werden konnten. Dazu wurden die .pdf-Dateien ins .xslx-Format konvertiert. Aufgrund der großen Unterschiede der beiden Formate musste hierbei jedoch manuell noch viel nachgebessert werden (WAS?), weshalb nicht alle zur Verfügung stehenden Jahrgänge ausgewertet werden konnten. Die .xlsx-Dateien konnten im Anschluss in ein .csv-Format konvertiert und als solches eingelesen werden.\\
 Aufgrund der guten Verfügbarkeit bestehender Tools und Libraries wurde für die Auswertung Python gewählt. Hierbei konnte vor allem auf das Datenanalysetool Pandas sowie Numpy und Matplotlib für die Auswertung zugegriffen werden. Das Jupyter Notebook stellt zudem eine übersichtliche und gut nachvollziehbare Programmierumgebung dar, in der Code gut im Team erarbeitet werden kann.\\
 Nach dem Einlesen wurden die Datensätze auf Vollständigkeit und Fehler durchsucht. Dabei wurde auf nicht erfasste Datenpunkte sowie offensichtliche Abweichungen wie negative Zahlen geachtet. Zudem mussten die Städtenamen und alle als String codierten Variablen überprüft und vereinheitlicht werden. So wurden alle Namen in Großbuchstaben und ohne Umlaute dargestellt, sowie Rechtschreibfehler und Unterschiede in der Darstellung von Doppelnamen korrigiert. Trennzeichen wie Komma oder Slash wurden vereinheitlicht und Zahlenwerte als Float gecastet. \\
-Zudem wurden Messwerte, die keinem eindeutigen Ort zugewiesen werden konnten (für einige Messwerte wurde als Bundesland "Umweltbundesamt" angegeben), aus dem Datensatz gelöscht, da eine nicht-automatisierte Zuordnung in der verfügbaren Zeit nicht möglich war. \\
-Insgesamt nahm die Aufbereitung der Daten viel Zeit in Anspruch. ?!??!
+Zudem wurden Messwerte, die keinem eindeutigen Ort zugewiesen werden konnten (für einige Messwerte wurde als Bundesland "Umweltbundesamt" angegeben), aus dem Datensatz gelöscht, da eine nicht-automatisierte Zuordnung in der verfügbaren Zeit nicht möglich war. Schließlich wurde aus den einzelnen Dateien für jedes Jahr eine Gesamtdatei erstellt, in der alle Jahre enthalten waren. \\
+Insgesamt nahm die Aufbereitung der Daten viel Zeit in Anspruch. Mit mehr Kapazitäten hätten Fehlerbehebung und Vervollständigung der Daten noch stärker verfolgt werden können, indem beispielsweise alle Daten zugeordnet werden oder die Verteilung der Werte genauer betrachtet wird.
 
 \section{Datenauswertung}
 
-Die Datensätze wurden zuerst isoliert betrachtet. Zur Messung der Luftwerte existierten Daten aus den Jahren 2002-2019, KfZ-Daten konnten von 2012-2019 genutzt werden. Die  Datensätze enthielten auch Zuordnungen der einzelnen Orte zu verschiedenen Abstufungen der Urbanität wie "vorstädtisches Gebiet". Die bestehende Einteilung wurde zur Vereinfachung zu den drei Kategorien "städtisch", "vorstädtisch" sowie "ländlich" zusammengefasst. Für einen ersten Überblick wurden die Stickoxidwerte über die Zeit geplottet (\ref{fig:NO2Entwicklung}). In der Tendenz stimmt das Ergebnis hierbei mit der Auswertung des Umweltbundesamtes (QUELLE) überein, die absoluten Werte weisen jedoch leichte Abweichungen auf. Dies ist wohl auf die leicht veränderte Einteilung der Ort in die drei Kategorien zurückzuführen.\\
+\subsection{Betrachtung der beiden Datensätze}
+
+Die Datensätze wurden zuerst isoliert betrachtet. Zur Messung der Luftwerte existierten Daten aus den Jahren 2002-2019, KfZ-Daten konnten von 2012-2019 genutzt werden. Die  Datensätze enthielten auch Zuordnungen der einzelnen Orte zu verschiedenen Abstufungen der Urbanität wie "vorstädtisches Gebiet". Die bestehende Einteilung wurde zur Vereinfachung zu den drei Kategorien "städtisch", "vorstädtisch" sowie "ländlich" zusammengefasst. Für einen ersten Überblick wurden die Stickoxidwerte über die Zeit geplottet (\ref{fig:NO2Entwicklung}). In der Tendenz stimmt das Ergebnis hierbei mit der Auswertung des Umweltbundesamtes (QUELLE) überein, die absoluten Werte weisen jedoch leichte Abweichungen auf. Dies ist wohl auf die leicht veränderte Einteilung der Orte in die drei Kategorien zurückzuführen.\\
 
 \begin{figure}[h!]
 	\centering
@@ -57,7 +59,7 @@ Die Datensätze wurden zuerst isoliert betrachtet. Zur Messung der Luftwerte exi
 	\label{fig:NO2Entwicklung}
 \end{figure}
 
-Zur weiteren Analyse wurden die Datensätze im Anschluss zusammengefügt. Dabei sollten die Stickstoffdaten über die Orte den Kraftfahrzeugdaten zugeordnet werden. Um Dopplungen zu vermeiden, wurde dazu pro Jahr und Bundesland überprüft, ob eine Stadt im Stickstoff-Datensatz auch im KfZ-Datensatz existiert und bei Übereinstimmung wurden die Daten in neuen Spalten hinzugefügt. Dieses Merging stellte eine größere Herausforderung dar als zunächst angenommen, da die Datensätze nicht die gleiche Zuordnung der Werte zu den Orten enthielten, wie zunächst angenommen. So bezogen sich die Daten des Kraftfahrtbundesamtes auf die regulären Landkreise, die Messungen des Umweltbundesamtes waren jedoch lediglich dem nächsten Ort zugewiesen und nicht der offiziellen Kreisstadt. Diese Zuordnung führte dazu, dass beim Merging ländliche Gebiete weniger gut zugeordnet werden konnten als größere Städte (\ref{fig:Kategorien}).\\
+Zur weiteren Analyse wurden die Datensätze im Anschluss zusammengefügt. Dabei sollten die Stickstoffdaten den Kraftfahrzeugdaten über die Orte zugeordnet werden. Um Verwechslungen bei gleichem Namen zu vermeiden, wurde dazu pro Jahr und Bundesland überprüft, ob eine Stadt im Stickstoff-Datensatz auch im KfZ-Datensatz existiert und bei Übereinstimmung wurden die Daten in neuen Spalten hinzugefügt. Dieses Merging stellte eine größere Herausforderung dar als vermutet, da die Datensätze nicht die gleiche Zuordnung der Werte zu den Orten enthielten wie zunächst angenommen. So bezogen sich die Daten des Kraftfahrtbundesamtes auf die regulären Landkreise, die Messungen des UBA waren jedoch lediglich dem nächsten Ort zugewiesen und nicht der offiziellen Kreisstadt. Diese Zuordnung führte dazu, dass beim Merging ländliche Gebiete weniger gut zugeordnet werden konnten als größere Städte (\ref{fig:Kategorien}).\\
 
 \begin{figure}[h!]
 	\centering
@@ -66,32 +68,37 @@ Zur weiteren Analyse wurden die Datensätze im Anschluss zusammengefügt. Dabei 
 	\label{fig:Kategorien}
 \end{figure}
 
-Zudem ist zu beachten, dass einige Städte in den Datensätzen mehrfach vorkommen (z.B. Weimar Schwanseestr. und Weimar Steubenstr.) (WIE wurde das noch mal gehandhabt) \\
-Im Anschluss an die Zuordnung wurden die Stickstoffwerte gegen die Fahrzeugzahlen aufgetragen (\ref{fig:NO2Insgesamt}). Dabei konnte bereits ein grober linearer Trend erkannt werden, der später noch mithilfe linearer Regression genauer aufgezeigt werden sollte. Außerdem zeigte sich, dass zwei Städte eine extrem hohe Anzahl an gemeldeten Fahrzeugen aufwiesen. (NUR Das jahr)
+Zudem ist zu beachten, dass einige Städte in den Datensätzen mehrfach vorkommen (z.B. Weimar Schwanseestr. und Weimar Steubenstr.) (WIE wurde das noch mal gehandhabt). Das Merging beanspruchte einen Großteil der Zeit des gesamten Projektes und konnte dennoch nicht die angestrebte Vollständigkeit erreichen. Wäre mehr Zeit vorhanden, hätten noch mehr Versuche angestrengt werden können, alle Städte in den beiden Datensätzen zuzuordnen. Möglich wäre dabei, die Orte eindeutig mithilfe eines Karten-Tools zu ermitteln und zuzuordnen. Auch auf Ausreißer hätte mehr geachtet werden können. Zudem wäre es noch interessant gewesen, die zeitliche Entwicklung in den Daten zu betrachten und diese in gesellschaftliche Kontexte zu setzen, wie zum Beispiel Gesetzesänderungen, Umweltzonen und lokale Unterschiede.
+
+\subsection{Betrachtung der Werte und lineare Regression}
+
+Im Anschluss an die Zuordnung wurden die Stickstoffwerte gegen die Fahrzeugzahlen aufgetragen. Dabei konnte bereits ein grober Trend erkannt werden. Mithilfe linearer Regression wurde versucht, den Zusammenhang genauer zu beschreiben (\ref{fig:linregisngesamt}). Außerdem zeigten sich im Bereich der Fahrzeugzahlen einige extreme Ausreißer
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=8.5cm]{NO2Insgesamt.jpg}
-	\caption{Stickstoffwerte in Abhängigkeit der Fahrzeugzahlen, beispielhaft am Jahr 2017.}
-	\label{fig:NO2Insgesamt}
+	\includegraphics[width=8.5cm]{linreginsgesamt.jpg}
+	\caption{Stickstoffwerte in Abhängigkeit der Fahrzeugzahlen.}
+	\label{fig:linreginsgesamt}
 \end{figure}
 
-Als nächstes wurde der Anteil an Dieselfahrzeugen betrachtet und die Stickstoffwerte gegen diesen aufgetragen (\ref{fig:dieselanteil}).
+Das Ergebnis wurde anschließend mithilfe von drei Error-Parametern evaluiert. Dabei zeigte sich ein mittlerer absoluter Fehler von 6,21, ein MSE von 66,82 sowie ein R2-Score von 0,13. Die gefundene Regressionsgerade beschreibt den gefundenen Zusammenhang somit eher weniger gut. \\
+Die Auswertung wurde schließlich noch einmal unter Ausschluss der Ausreißer durchgeführt, brachte jedoch keine nennenswerte Besserung. (ZAhlen nennen???!!) \\
+Als nächstes wurde der Anteil an Dieselfahrzeugen betrachtet und die Stickstoffwerte gegen diesen aufgetragen. Eine grobe Betrachtung des Plots ließ zunächst auf eine eher zufällige Verteilung mit geringfügiger linearer Tendenz schließen. Auch durch lineare Regression konnte hierbei kein starker Zusammenhang festgestellt werden (\ref{fig:linregdieselanteil}).
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=8.5cm]{dieselanteil.jpg}
-	\caption{Stickstoffwerte in Abhängigkeit des Dieselanteil, beispielhaft am Jahr 2017.}
-	\label{fig:dieselanteil}
+	\includegraphics[width=8.5cm]{linregdieselanteil.jpg}
+	\caption{Stickstoffwerte in Abhängigkeit des Dieselanteils.}
+	\label{fig:linregdieselanteil}
 \end{figure}
 
-\subsection{Vergleich der Stickoxidwerte zwischen den Bundesländern}
+Die Evaluation ergab hierbei einen absoluten durchschnittlichen Fehler von 6,64, einen MSE von 74,04 sowie einen R2-Score von 0,04, und lässt darauf schließen, dass hier kein sinnvoller Erkenntnisgewinn durch die lineare Regression geschaffen wurde.
 
-\subsection{Vergleich der Stickoxidwerte zwischen ausgewählten ländlichen und städtischen Gebieten}
-
-\section{Interpretation der Ergebnisse}
+\subsection{Nicht-lineare Regression}
 
 \section{Diskussion}
+
+
 
 Frage: dort wo autos gemeldet werden nicht unbedingt gefahren (Hamburg+Hannover), Aufwand pdf-Parsen --> nur neuere Daten, Matching der Orte in beiden Datensätzen, Städte mehrmals aufgezählt --> Mittelwert,Stickstoffwerte gehen tendenziell eher runter, Autozahlen bleiben gleich
 
