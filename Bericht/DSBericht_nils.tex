@@ -29,7 +29,7 @@
 	\section{Fragestellung und Auswahl der Datensätze}
 	
 	Die Frage der Schädlichkeit von Stickoxiden und deren Zusammenhang mit Dieselfahrzeugen hat in der Vergangenheit die Debatte um die Verkehrswende dominiert. Um einen Überblick über die Rolle von verschiedenen Antriebsarten zu bekommen, sollten in diesem Projekt Daten zu Antriebsdaten mit Stickoxidwerten in Deutschland verglichen werden. \\
-	Zu Analyse der Fragestellung wurden Datensätze des Umweltbundesamtes (UBA) [QUELLE] sowie des Kraftfahrtbundesamtes (KBA) [QUELLE] genutzt. Die Daten-sätze des UBA lagen als .xlx-Dateien vor und beinhalteten Informationen zu jahresgemittelten Stickoxidwerten an verschiedenen deutschen Messstationen(Abb. \ref{fig:BeispielNO2}), während das KBA hauptsächlich .pdf-Dateien veröffentlichte, in denen die zu einem Stichtag zugelassenen Anzahlen von Autos nach Antriebsart in den jeweiligen Orten aufgelistet waren (Abb. \ref{fig:BeispielKFZ}). Beide Quellen stellen Datensätze nach Jahr zu Verfügung.
+	Zu Analyse der Fragestellung wurden Datensätze des Umweltbundesamtes (UBA, 1) sowie des Kraftfahrtbundesamtes (KBA, 2) genutzt. Die Datensätze des UBA lagen als .xlx-Dateien vor und beinhalteten Informationen zu jahresgemittelten Stickoxidwerten an verschiedenen deutschen Messstationen(Abb. \ref{fig:BeispielNO2}), während das KBA hauptsächlich .pdf-Dateien veröffentlichte, in denen die zu einem Stichtag zugelassenen Anzahlen von Autos nach Antriebsart in den jeweiligen Orten aufgelistet waren (Abb. \ref{fig:BeispielKFZ}). Beide Quellen stellen Datensätze nach Jahr zu Verfügung.
 	
 	\begin{figure}[h!]
 		\centering
@@ -64,7 +64,7 @@
 	
 	\subsection{Betrachtung der beiden Datensätze}
 	
-	Die Datensätze wurden zuerst isoliert betrachtet. Zur Messung der Luftwerte existierten Daten aus den Jahren 2002-2019, KfZ-Daten konnten von 2012-2019 genutzt werden. Die  Datensätze enthielten auch Zuordnungen der einzelnen Orte zu verschiedenen Abstufungen der Urbanität wie "vorstädtisches Gebiet". Die Einteilung wurde zur Vereinfachung zu den drei Kategorien "städtisch", "vorstädtisch" sowie "ländlich" zusammengefasst. Für einen ersten Überblick wurden die Stickoxidwerte über die Zeit geplottet (Abb. \ref{fig:NO2Entwicklung}). In der Tendenz stimmt das Ergebnis hierbei mit der Auswertung des Umweltbundesamtes (QUELLE) überein, die absoluten Werte weisen jedoch leichte Abweichungen auf. Dies ist wohl auf die leicht veränderte Einteilung der Orte in die drei Kategorien zurückzuführen.\\
+	Die Datensätze wurden zuerst isoliert betrachtet. Zur Messung der Luftwerte existierten Daten aus den Jahren 2002-2019, KfZ-Daten konnten von 2012-2019 genutzt werden. Die  Datensätze enthielten auch Zuordnungen der einzelnen Orte zu verschiedenen Abstufungen der Urbanität wie "vorstädtisches Gebiet". Die Einteilung wurde zur Vereinfachung zu den drei Kategorien "städtisch", "vorstädtisch" sowie "ländlich" zusammengefasst. Für einen ersten Überblick wurden die Stickoxidwerte über die Zeit geplottet (Abb. \ref{fig:NO2Entwicklung}). In der Tendenz stimmt das Ergebnis hierbei mit der Auswertung des Umweltbundesamtes (3) überein, die absoluten Werte weisen jedoch leichte Abweichungen auf. Dies ist wohl auf die leicht veränderte Einteilung der Orte in die drei Kategorien zurückzuführen.\\
 	
 	\begin{figure}[h!]
 		\centering
@@ -89,7 +89,7 @@
 	
 	\subsection{Betrachtung der Werte und lineare Regression}
 	
-	Im Anschluss an die Zuordnung wurden die Stickstoffwerte gegen die Fahrzeugzahlen aufgetragen. Dabei konnte bereits ein grober Trend erkannt werden. Mithilfe linearer Regression wurde versucht, den Zusammenhang genauer zu beschreiben (\ref{fig:linregisngesamt}). Außerdem zeigten sich im Bereich der Fahrzeugzahlen einige extreme Ausreißer
+	Im Anschluss an die Zuordnung wurden die Stickstoffwerte gegen die Fahrzeugzahlen aufgetragen. Dabei konnte bereits ein grober Trend erkannt werden. Mithilfe linearer Regression wurde versucht, den Zusammenhang genauer zu beschreiben (\ref{fig:linreginsgesamt}). Außerdem zeigten sich im Bereich der Fahrzeugzahlen einige extreme Ausreißer
 	
 	\begin{figure}[h!]
 		\centering
@@ -99,7 +99,7 @@
 	\end{figure}
 	
 	Das Ergebnis wurde anschließend mithilfe von drei Error-Parametern evaluiert. Dabei zeigte sich ein mittlerer absoluter Fehler von 6,21, ein MSE von 66,82 sowie ein R2-Score von 0,13. Die gefundene Regressionsgerade beschreibt den gefundenen Zusammenhang somit eher weniger gut. \\
-	Die Auswertung wurde schließlich noch einmal unter Ausschluss der Ausreißer durch-geführt, brachte jedoch keine nennenswerte Besserung. (ZAhlen nennen???!!) \\
+	Die Auswertung wurde schließlich noch einmal unter Ausschluss der Ausreißer durch-geführt, brachte jedoch keine nennenswerte Besserung. \\
 	Als nächstes wurde der Anteil an Dieselfahrzeugen betrachtet und die Stickstoffwerte gegen diesen aufgetragen. Eine grobe Betrachtung des Plots ließ zunächst auf eine eher zufällige Verteilung mit geringfügiger linearer Tendenz schließen. Auch durch lineare Regression konnte hierbei kein starker Zusammenhang festgestellt werden (Abb. \ref{fig:linregdieselanteil}).
 	
 	\begin{figure}[H]
@@ -113,7 +113,7 @@
 	
 	\subsection{Nicht-lineare Regression}
 	
-	Rund 38\% der Bundesweiten NOx Belastung stammt laut UBA aus dem Verkehr (Quelle https://www.umweltbundesamt.de/daten/luft/luftschadstoff-emissionen-in-deutschland/stickstoffoxid-emissionen\#entwicklung-seit-1990). Die betrachteten Messstationen tragen die Bezeichnung "Verkehr". Da es sich außerdem meist um Großstädte handelt, steuern andere NO2 Quellen, wie Land und Energiewirtschaft, einen untergeordneten Beitrag zur NO2 Bilanz bei. Der lineare Zusammenhang scheint also zunächst naheliegend. Je mehr PKWs in einer Stadt zugelassen sind, desto mehr NO2 Belastung könnte entstehen. Hier werden allerdings einige Aspekte nicht beachtet. Die Größe des Stadtgebietes und physikalische Eigenschaften der Gase wie Diffusion könnten dafür sorgen, dass sich der Zusammenhang mit einer Wachstumskurve womöglich genauer beschreiben lässt. Die Auslastung der Straßen, an denen der NO2 Wert gemessen wird, ist je nach Größe auf einen bestimmten Verkehrsdurchfluss begrenzt. Neue Fahrzeuge in der Stadt sorgen hier also nicht gleichzeitig für einen hören NO2 Wert. Daher ist es möglich, dass eine Sättigungskurve die NO2-Entwicklung besser beschreibt. Es wurde also noch eine nicht-lineare Regressionsanalyse durchgeführt (Abb. \ref{fig:nonlinreg}).
+	Rund 38\% der Bundesweiten NOx Belastung stammt laut UBA aus dem Verkehr (3). Die betrachteten Messstationen tragen die Bezeichnung "Verkehr". Da es sich außerdem meist um Großstädte handelt, steuern andere NO2 Quellen, wie Land und Energiewirtschaft, einen untergeordneten Beitrag zur NO2 Bilanz bei. Der lineare Zusammenhang scheint also zunächst naheliegend. Je mehr PKWs in einer Stadt zugelassen sind, desto mehr NO2 Belastung könnte entstehen. Hier werden allerdings einige Aspekte nicht beachtet. Die Größe des Stadtgebietes und physikalische Eigenschaften der Gase wie Diffusion könnten dafür sorgen, dass sich der Zusammenhang mit einer Wachstumskurve womöglich genauer beschreiben lässt. Die Auslastung der Straßen, an denen der NO2 Wert gemessen wird, ist je nach Größe auf einen bestimmten Verkehrsdurchfluss begrenzt. Neue Fahrzeuge in der Stadt sorgen hier also nicht gleichzeitig für einen hören NO2 Wert. Daher ist es möglich, dass eine Sättigungskurve die NO2-Entwicklung besser beschreibt. Es wurde also noch eine nicht-lineare Regressionsanalyse durchgeführt (Abb. \ref{fig:nonlinreg}).
 	
 	\begin{figure}[H]
 	\centering
@@ -124,13 +124,17 @@
 	
 	\section{Diskussion}
 	
-	Ziel der Analyse war es, den Zusammenhang zwischen Stickstoffwerten und Anzahl an Fahrzeugen einerseits sowie Dieselfahrzeugen andererseits zu reproduzieren (QUELLE). Der erste Punkt konnte durch die Daten zwar recht gut gezeigt werden, doch die Regressionsanalyse zeigt, dass zusätzliche Daten benötigt werden, um den Zusammenhang genau zu beschreiben. So stellt sich beispielsweise die Frage, ob die Autos dort, wo sie gemeldet sind, auch tatsächlich gefahren werden. So stellen beispielsweise Mietwagenfirmen, die ihre Fahrzeuge alle in einer Stadt melden, ein Problem bei der hier dargestellten Vorgehensweise dar. Es wäre also besser, Fahrzeugdaten zu verwenden, die klar an einer Stelle nachgewiesen wurden. (was meinen wir hier? Ich meine abgesehen von gewerblich genutzten Fahrzeugen würde ich schon sagen dass im Durchschnitt überall in Deutschland zu ähnlichen Prozentsätzen dort gefahren wird, wo auch zugelassen wurde. Klar gibt es hier viel Rauschen aber im großen und ganzen finde ich unseren approach nich bad) \\
+	Ziel der Analyse war es, den Zusammenhang zwischen Stickstoffwerten und Anzahl an Fahrzeugen einerseits sowie Dieselfahrzeugen andererseits zu untersuchen. Der erste Punkt konnte durch die Daten zwar recht gut gezeigt werden, doch die Regressionsanalyse zeigt, dass zusätzliche Daten benötigt werden, um den Zusammenhang genau zu beschreiben. So stellt sich beispielsweise die Frage, ob die Autos dort, wo sie gemeldet sind, auch tatsächlich gefahren werden. So stellen beispielsweise Mietwagenfirmen, die ihre Fahrzeuge alle in einer Stadt melden, ein Problem bei der hier dargestellten Vorgehensweise dar. Es wäre also besser, Fahrzeugdaten zu verwenden, die klar an einer Stelle nachgewiesen wurden. (was meinen wir hier? Ich meine abgesehen von gewerblich genutzten Fahrzeugen würde ich schon sagen dass im Durchschnitt überall in Deutschland zu ähnlichen Prozentsätzen dort gefahren wird, wo auch zugelassen wurde. Klar gibt es hier viel Rauschen aber im großen und ganzen finde ich unseren approach nich bad) \\
 	Bei der Analyse der Dieselfahrzeuge konnte kein zuverlässiger Zusammenhang gefunden werden. Allerdings sind auch bei der Interpretation dieser Ergebnisse einige Punkte zu beachten. Die Einteilung in Diesel/Nicht-Diesel kann hierbei als zu grob betrachtet werden. \\
 	Insgesamt war vor allem die Datenaufbereitung und die Zuordnung der Datensätze zueinander mit Schwierigkeiten verbunden. Mit etwas mehr Zeit wäre es vielleicht möglich gewesen, alle älteren Jahrgänge der KBA in die Analyse aufzunehmen und sich die zeitliche Entwicklung noch genauer anzusehen. Die Ergebnisse zeigten zwar leicht sinkende Stickstoffwerte über die Zeit, doch von genauerem Interesse wären auch noch lokale Unterschiede wie Umweltzonen oder Ballungsräume. \\
 	Auch der Vergleich von urbanen und ländlichen Gebieten konnte aufgrund der Herausforderungen bei der Fusion der Datensätze nicht gezogen werden. Wenn die Städte eindeutiger zuzuordnen wären, wäre hier noch eine genauere Analyse von Einflussfaktoren möglich gewesen. \\
 	
 	\section{Quellen}
 	
-	[1]
+	(1) https://www.umweltbundesamt.de/themen/luft/luftschadstoffe/stickstoffoxide\\
+	(2) https://www.kba.de/DE/Statistik/Fahrzeuge/Bestand/ZulassungsbezirkeGemei-nden/zulassungsbezirke\_node.html\\
+	(3) https://www.umweltbundesamt.de/themen/luft/daten-karten/entwicklung-der-luftqualitaet\#entwicklung-der-luftqualitat-in-deutschland \\
+	
+	
 	
 \end{document}

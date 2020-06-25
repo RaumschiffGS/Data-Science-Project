@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.25)  25 JUN 2020 14:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.25)  25 JUN 2020 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -790,17 +790,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 90.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 90.
-
-
-LaTeX Warning: Reference `fig:linregisngesamt' on page 5 undefined on input lin
-e 92.
-
-<linreginsgesamt.jpg, id=83, 274.77657pt x 201.00093pt>
+<linreginsgesamt.jpg, id=84, 274.77657pt x 201.00093pt>
 File: linreginsgesamt.jpg Graphic file (type jpg)
 <use linreginsgesamt.jpg>
 Package pdftex.def Info: linreginsgesamt.jpg  used on input line 96.
 (pdftex.def)             Requested size: 184.9429pt x 135.28944pt.
-<linregdieselanteil.jpg, id=85, 287.57437pt x 187.45032pt>
+<linregdieselanteil.jpg, id=86, 287.57437pt x 187.45032pt>
 File: linregdieselanteil.jpg Graphic file (type jpg)
 <use linregdieselanteil.jpg>
 Package pdftex.def Info: linregdieselanteil.jpg  used on input line 107.
@@ -813,8 +808,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 113.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 113.
-[5pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) 
-has been already used, duplicate ignored
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -830,19 +825,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 114.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 114.
-
-Overfull \hbox (10.82683pt too wide) in paragraph at lines 116--117
-\OT1/cmr/m/n/10.95 deutschland/stickstoffoxid-emissionen#entwicklung-seit-1990)
-. Die be-trach-te-ten Mess-
- []
-
-
-Overfull \hbox (8.56085pt too wide) in paragraph at lines 116--117
-\OT1/cmr/m/n/10.95 sta-tio-nen tra-gen die Be-zeich-nung "Ver-kehr". Da es sich
- au-^^Yer-dem meist um Gro^^Yst[]adte
- []
-
-<nonlinreg.jpg, id=93, 287.57437pt x 209.28188pt>
+<nonlinreg.jpg, id=94, 287.57437pt x 209.28188pt>
 File: nonlinreg.jpg Graphic file (type jpg)
 <use nonlinreg.jpg>
 Package pdftex.def Info: nonlinreg.jpg  used on input line 120.
@@ -875,45 +858,52 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 132.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 132.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+
+Overfull \hbox (5.48883pt too wide) in paragraph at lines 134--137
+\OT1/cmr/m/n/10.95 (2) https://www.kba.de/DE/Statistik/Fahrzeuge/Bestand/Zulass
+ungsbezirkeGemei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 136.
- [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
+(babel)             in language  on input line 140.
+[7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
  (./DSBericht_nils.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `DSBericht_nils.out' has not changed.
 (rerunfilecheck)             Checksum: C9FE98B93C4C6CE3811F23DE52104B72;518.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 136.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  ) 
 Here is how much of TeX's memory you used:
  6585 strings out of 494871
- 95231 string characters out of 6178382
+ 95228 string characters out of 6178382
  194469 words of memory out of 5000000
  9810 multiletter control sequences out of 15000+600000
  8811 words of font info for 31 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 28i,6n,32p,1304b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,6n,32p,1167b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on DSBericht_nils.pdf (7 pages, 338101 bytes).
+Output written on DSBericht_nils.pdf (7 pages, 337934 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 132 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  25 named destinations out of 1000 (max. 500000)
  110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
