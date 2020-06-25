@@ -1,12 +1,13 @@
 \documentclass[11pt,a4paper,oneside,german]{article}
 \pagestyle{plain}
-\usepackage[english]{babel}
+\usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
 
 \usepackage{geometry}
 \geometry{a4paper,left=40mm,right=30mm, top=3.5cm, bottom=2.5cm}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{float}
 
 \title{Praktikumsbericht Data Science 1}
 \author{Robin Mayer, Nils Nover, Mariella Zunker}
@@ -53,8 +54,7 @@
 	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=12cm]{Heatmaps_No2.png}
-		\includegraphics[width=12cm]{Heatmaps_KFZ.png}
+		\includegraphics[width=12cm]{Heatmaps.png}
 		\caption{Ausschnitt aus den Daten als Heatmaps dargestellt. Links die Stickstoffwerteentwicklung, rechts die Entwicklung der Autoanzahlen.}
 		\label{fig:Heatmaps}
 	\end{figure}
@@ -76,7 +76,7 @@
 	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=4.5cm]{Kategorien.jpg}
+		\includegraphics[width=3.5cm]{Kategorien.jpg}
 		\caption{Anzahl an Orten in den Kategorien, die zugeordnet werden konnten, beispielhaft am Jahr 2017.}
 		\label{fig:Kategorien}
 	\end{figure}
@@ -89,7 +89,7 @@
 	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=8.5cm]{linreginsgesamt.jpg}
+		\includegraphics[width=6.5cm]{linreginsgesamt.jpg}
 		\caption{Stickstoffwerte in Abhängigkeit der Fahrzeugzahlen.}
 		\label{fig:linreginsgesamt}
 	\end{figure}
@@ -98,9 +98,9 @@
 	Die Auswertung wurde schließlich noch einmal unter Ausschluss der Ausreißer durch-geführt, brachte jedoch keine nennenswerte Besserung. (ZAhlen nennen???!!) \\
 	Als nächstes wurde der Anteil an Dieselfahrzeugen betrachtet und die Stickstoffwerte gegen diesen aufgetragen. Eine grobe Betrachtung des Plots ließ zunächst auf eine eher zufällige Verteilung mit geringfügiger linearer Tendenz schließen. Auch durch lineare Regression konnte hierbei kein starker Zusammenhang festgestellt werden (Abb. \ref{fig:linregdieselanteil}).
 	
-	\begin{figure}[h!]
+	\begin{figure}[H]
 		\centering
-		\includegraphics[width=8.5cm]{linregdieselanteil.jpg}
+		\includegraphics[width=6.5cm]{linregdieselanteil.jpg}
 		\caption{Stickstoffwerte in Abhängigkeit des Dieselanteils.}
 		\label{fig:linregdieselanteil}
 	\end{figure}
@@ -109,7 +109,7 @@
 	
 	\subsection{Nicht-lineare Regression}
 	
-	Rund 38 Prozent der Bundesweiten NOx Belastung stammt aus dem Verkehr (Quelle https://www.umweltbundesamt.de/daten/luft/luftschadstoff-emissionen-in-deutschland/stickstoffoxid-emissionen#entwicklung-seit-1990). Die betrachteten Messstationen tragen die Bezeichnung "Verkehr", was per Definition eine unmittelbare Nähe zu Straßen impliziert (Robin? Right? :D). Da es sich außerdem meist um Großstädte handelt, werden andere NO2 Quellen, wie Land und Energiewirtschaft, einen untergeordneten Beitrag zur NO2 Bilanz beisteuern. Der lineare Zusammenhang scheint also zunächst naheliegend. Je mehr PKWs in einer Stadt zugelassen sind, desto mehr NO2 Belastung könnte entstehen. Hier werden allerdings einige Aspekte nicht beachtet. Die Größe des Stadtgebietes und physikalische Eigenschaften der Gase wie Diffusion könnten dafür sorgen, dass sich der Zusammenhang mit einer Wachstumskurve womöglich genauer beschreiben lässt. Die Auslastung der Straßen, an denen der NO2 Wert gemessen wird, ist je nach Größe auf einen bestimmten Verkehrsdurchfluss begrenzt. Neue Fahrzeuge in der Stadt sorgen hier also nicht gleichzeitig für einen hören NO2 Wert.     
+	Rund 38 Prozent der Bundesweiten NOx Belastung stammt aus dem Verkehr (Quelle https://www.umweltbundesamt.de/daten/luft/luftschadstoff-emissionen-in-deutschland/stickstoffoxid-emissionen\#entwicklung-seit-1990). Die betrachteten Messstationen tragen die Bezeichnung "Verkehr", was per Definition eine unmittelbare Nähe zu Straßen impliziert (Robin? Right? :D). Da es sich außerdem meist um Großstädte handelt, werden andere NO2 Quellen, wie Land und Energiewirtschaft, einen untergeordneten Beitrag zur NO2 Bilanz beisteuern. Der lineare Zusammenhang scheint also zunächst naheliegend. Je mehr PKWs in einer Stadt zugelassen sind, desto mehr NO2 Belastung könnte entstehen. Hier werden allerdings einige Aspekte nicht beachtet. Die Größe des Stadtgebietes und physikalische Eigenschaften der Gase wie Diffusion könnten dafür sorgen, dass sich der Zusammenhang mit einer Wachstumskurve womöglich genauer beschreiben lässt. Die Auslastung der Straßen, an denen der NO2 Wert gemessen wird, ist je nach Größe auf einen bestimmten Verkehrsdurchfluss begrenzt. Neue Fahrzeuge in der Stadt sorgen hier also nicht gleichzeitig für einen hören NO2 Wert.     
 	
 	\section{Diskussion}
 	

@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.21)  25 JUN 2020 09:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.25)  25 JUN 2020 11:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**DSBericht.tex
-(./DSBericht.tex
+**DSBericht_nils.tex
+(./DSBericht_nils.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 8 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -29,8 +29,13 @@ Package: babel 2018/02/14 3.18 The Babel package
 (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/german.ldf
+Language: german 2016/11/02 v2.9 German support for babel (traditional orthogra
+phy)
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/germanb.ldf
+Language: germanb 2016/11/02 v2.9 German support for babel (traditional orthogr
+aphy)
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
@@ -40,12 +45,14 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@dirlevel=\count88
 )
-\l@british = a dialect from \language\l@english 
-\l@UKenglish = a dialect from \language\l@english 
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
+Package babel Info: Making " an active character on input line 139.
 ))
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2016/11/02 v2.9 German support for babel (new orthography)
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2016/11/02 v2.9 German support for babel (new orthography)
+)))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
@@ -525,23 +532,30 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
-(./DSBericht.aux)
-\openout1 = `DSBericht.aux'.
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count102
+\float@exts=\toks18
+\float@box=\box26
+\@float@everytoks=\toks19
+\@floatcapt=\box27
+) (./DSBericht_nils.aux)
+\openout1 = `DSBericht_nils.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -579,17 +593,17 @@ LaTeX Font Info:    ... okay on input line 15.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count102
+\scratchcounter=\count103
 \scratchdimen=\dimen118
-\scratchbox=\box26
-\nofMPsegments=\count103
-\nofMParguments=\count104
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count105
+\scratchbox=\box28
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count106
 \MPscratchDim=\dimen119
-\MPnumerator=\count106
-\makeMPintoPDFobject=\count107
-\everyMPtoPDFconversion=\toks19
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks21
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -607,8 +621,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 15.
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring OFF on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -616,129 +630,260 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count108
+\c@section@level=\count109
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
 
-(./DSBericht.out) (./DSBericht.out)
+(./DSBericht_nils.out) (./DSBericht_nils.out)
 \@outlinefile=\write3
-\openout3 = `DSBericht.out'.
+\openout3 = `DSBericht_nils.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 17.
+(Font)              <12> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 17.
+(Font)              <8> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 17.
+(Font)              <6> on input line 18.
 <uniemblem.jpg, id=32, 722.7pt x 481.8pt>
 File: uniemblem.jpg Graphic file (type jpg)
 <use uniemblem.jpg>
-Package pdftex.def Info: uniemblem.jpg  used on input line 20.
+Package pdftex.def Info: uniemblem.jpg  used on input line 21.
 (pdftex.def)             Requested size: 298.75394pt x 199.17134pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 24.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 24.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./uniemblem.jpg>] (./DSBer
-icht.toc
+icht_nils.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 5.
 )
 \tf@toc=\write4
-\openout4 = `DSBericht.toc'.
+\openout4 = `DSBericht_nils.toc'.
 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 28.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 28.
 <BeispielNO2.png, id=50, 593.21625pt x 115.18031pt>
 File: BeispielNO2.png Graphic file (type png)
 <use BeispielNO2.png>
-Package pdftex.def Info: BeispielNO2.png  used on input line 34.
+Package pdftex.def Info: BeispielNO2.png  used on input line 35.
 (pdftex.def)             Requested size: 298.75394pt x 58.00829pt.
 <BeispielKFZ.png, id=51, 557.08125pt x 169.38281pt>
 File: BeispielKFZ.png Graphic file (type png)
 <use BeispielKFZ.png>
-Package pdftex.def Info: BeispielKFZ.png  used on input line 41.
+Package pdftex.def Info: BeispielKFZ.png  used on input line 42.
 (pdftex.def)             Requested size: 298.75394pt x 90.83987pt.
- [2 <./BeispielNO2.png> <./BeispielKFZ.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 47.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 47.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 54.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 54.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 54.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 54.
+ [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.54 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.54 
+      <./BeispielNO2.png> <./BeispielKFZ.png>]
 <Heatmaps.png, id=62, 963.6pt x 219.82124pt>
 File: Heatmaps.png Graphic file (type png)
 <use Heatmaps.png>
-Package pdftex.def Info: Heatmaps.png  used on input line 56.
+Package pdftex.def Info: Heatmaps.png  used on input line 57.
 (pdftex.def)             Requested size: 341.43306pt x 77.88782pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 62.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 62.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 64.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 64.
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-[3 <./Heatmaps.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 67.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 67.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 67.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 67.
+[3pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.67 
+      <./Heatmaps.png>]
 <NO2Entwicklung.png, id=69, 271.76532pt x 180.675pt>
 File: NO2Entwicklung.png Graphic file (type png)
 <use NO2Entwicklung.png>
-Package pdftex.def Info: NO2Entwicklung.png  used on input line 69.
+Package pdftex.def Info: NO2Entwicklung.png  used on input line 70.
 (pdftex.def)             Requested size: 241.84842pt x 160.79196pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 <Kategorien.jpg, id=71, 193.47281pt x 78.2925pt>
 File: Kategorien.jpg Graphic file (type jpg)
 <use Kategorien.jpg>
-Package pdftex.def Info: Kategorien.jpg  used on input line 78.
-(pdftex.def)             Requested size: 128.0374pt x 51.81297pt.
-[4 <./NO2Entwicklung.png> <./Kategorien.jpg>]
+Package pdftex.def Info: Kategorien.jpg  used on input line 79.
+(pdftex.def)             Requested size: 99.58464pt x 40.29898pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 85.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 85.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 85.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 85.
+[4pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.85 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.85 
+      <./NO2Entwicklung.png> <./Kategorien.jpg>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 86.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 86.
+
 
 LaTeX Warning: Reference `fig:linregisngesamt' on page 5 undefined on input lin
-e 87.
+e 88.
 
 <linreginsgesamt.jpg, id=78, 274.77657pt x 201.00093pt>
 File: linreginsgesamt.jpg Graphic file (type jpg)
 <use linreginsgesamt.jpg>
-Package pdftex.def Info: linreginsgesamt.jpg  used on input line 91.
-(pdftex.def)             Requested size: 241.84842pt x 176.91815pt.
+Package pdftex.def Info: linreginsgesamt.jpg  used on input line 92.
+(pdftex.def)             Requested size: 184.9429pt x 135.28944pt.
 <linregdieselanteil.jpg, id=80, 287.57437pt x 187.45032pt>
 File: linregdieselanteil.jpg Graphic file (type jpg)
 <use linregdieselanteil.jpg>
-Package pdftex.def Info: linregdieselanteil.jpg  used on input line 102.
-(pdftex.def)             Requested size: 241.84842pt x 157.64882pt.
+Package pdftex.def Info: linregdieselanteil.jpg  used on input line 103.
+(pdftex.def)             Requested size: 184.9429pt x 120.55414pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 109.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 109.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 109.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 109.
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) 
+has been already used, duplicate ignored
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.109 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+7}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.109 
+       <./linreginsgesamt.jpg> <./linregdieselanteil.jpg>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 110.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 110.
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--117
+Overfull \hbox (91.30946pt too wide) in paragraph at lines 112--113
+\OT1/cmr/m/n/10.95 https://www.umweltbundesamt.de/daten/luft/luftschadstoff-emi
+ssionen-in-deutschland/stickstoffoxid-
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 114.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 114.
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--120
 
  []
 
-[5 <./linreginsgesamt.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
- [6 <./linregdieselanteil.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
- (./DSBericht.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
-Package rerunfilecheck Info: File `DSBericht.out' has not changed.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 120.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 120.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 120.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 120.
+[6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 121.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 121.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 121.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 121.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+ (./DSBericht_nils.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package rerunfilecheck Info: File `DSBericht_nils.out' has not changed.
 (rerunfilecheck)             Checksum: B1E77072277837CC3238F0F04162C7F3;476.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
  ) 
 Here is how much of TeX's memory you used:
- 6336 strings out of 494923
- 91555 string characters out of 6180742
- 188409 words of memory out of 5000000
- 9565 multiletter control sequences out of 15000+600000
+ 6514 strings out of 494871
+ 94318 string characters out of 6178382
+ 193108 words of memory out of 5000000
+ 9746 multiletter control sequences out of 15000+600000
  8811 words of font info for 31 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 28i,6n,28p,974b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,6n,32p,1205b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on DSBericht.pdf (6 pages, 317400 bytes).
+Output written on DSBericht_nils.pdf (7 pages, 320851 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
+ 23 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
