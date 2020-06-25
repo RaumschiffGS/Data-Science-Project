@@ -113,7 +113,14 @@
 	
 	\subsection{Nicht-lineare Regression}
 	
-	Rund 38 Prozent der Bundesweiten NOx Belastung stammt aus dem Verkehr (Quelle https://www.umweltbundesamt.de/daten/luft/luftschadstoff-emissionen-in-deutschland/stickstoffoxid-emissionen\#entwicklung-seit-1990). Die betrachteten Messstationen tragen die Bezeichnung "Verkehr", was per Definition eine unmittelbare Nähe zu Straßen impliziert (Robin? Right? :D). Da es sich außerdem meist um Großstädte handelt, werden andere NO2 Quellen, wie Land und Energiewirtschaft, einen untergeordneten Beitrag zur NO2 Bilanz beisteuern. Der lineare Zusammenhang scheint also zunächst naheliegend. Je mehr PKWs in einer Stadt zugelassen sind, desto mehr NO2 Belastung könnte entstehen. Hier werden allerdings einige Aspekte nicht beachtet. Die Größe des Stadtgebietes und physikalische Eigenschaften der Gase wie Diffusion könnten dafür sorgen, dass sich der Zusammenhang mit einer Wachstumskurve womöglich genauer beschreiben lässt. Die Auslastung der Straßen, an denen der NO2 Wert gemessen wird, ist je nach Größe auf einen bestimmten Verkehrsdurchfluss begrenzt. Neue Fahrzeuge in der Stadt sorgen hier also nicht gleichzeitig für einen hören NO2 Wert.     
+	Rund 38\% der Bundesweiten NOx Belastung stammt laut UBA aus dem Verkehr (Quelle https://www.umweltbundesamt.de/daten/luft/luftschadstoff-emissionen-in-deutschland/stickstoffoxid-emissionen\#entwicklung-seit-1990). Die betrachteten Messstationen tragen die Bezeichnung "Verkehr". Da es sich außerdem meist um Großstädte handelt, steuern andere NO2 Quellen, wie Land und Energiewirtschaft, einen untergeordneten Beitrag zur NO2 Bilanz bei. Der lineare Zusammenhang scheint also zunächst naheliegend. Je mehr PKWs in einer Stadt zugelassen sind, desto mehr NO2 Belastung könnte entstehen. Hier werden allerdings einige Aspekte nicht beachtet. Die Größe des Stadtgebietes und physikalische Eigenschaften der Gase wie Diffusion könnten dafür sorgen, dass sich der Zusammenhang mit einer Wachstumskurve womöglich genauer beschreiben lässt. Die Auslastung der Straßen, an denen der NO2 Wert gemessen wird, ist je nach Größe auf einen bestimmten Verkehrsdurchfluss begrenzt. Neue Fahrzeuge in der Stadt sorgen hier also nicht gleichzeitig für einen hören NO2 Wert. Daher ist es möglich, dass eine Sättigungskurve die NO2-Entwicklung besser beschreibt. Es wurde also noch eine nicht-lineare Regressionsanalyse durchgeführt (Abb. \ref{fig:nonlinreg}).
+	
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=6.5cm]{nonlinreg.jpg}
+	\caption{Nicht-lineare Regression des Zusammenhangs von Fahrzeugzahlen und Stickstoffwerten.}
+	\label{fig:nonlinreg}
+	\end{figure}
 	
 	\section{Diskussion}
 	
@@ -121,5 +128,9 @@
 	Bei der Analyse der Dieselfahrzeuge konnte kein zuverlässiger Zusammenhang gefunden werden. Allerdings sind auch bei der Interpretation dieser Ergebnisse einige Punkte zu beachten. Die Einteilung in Diesel/Nicht-Diesel kann hierbei als zu grob betrachtet werden. \\
 	Insgesamt war vor allem die Datenaufbereitung und die Zuordnung der Datensätze zueinander mit Schwierigkeiten verbunden. Mit etwas mehr Zeit wäre es vielleicht möglich gewesen, alle älteren Jahrgänge der KBA in die Analyse aufzunehmen und sich die zeitliche Entwicklung noch genauer anzusehen. Die Ergebnisse zeigten zwar leicht sinkende Stickstoffwerte über die Zeit, doch von genauerem Interesse wären auch noch lokale Unterschiede wie Umweltzonen oder Ballungsräume. \\
 	Auch der Vergleich von urbanen und ländlichen Gebieten konnte aufgrund der Herausforderungen bei der Fusion der Datensätze nicht gezogen werden. Wenn die Städte eindeutiger zuzuordnen wären, wäre hier noch eine genauere Analyse von Einflussfaktoren möglich gewesen. \\
+	
+	\section{Quellen}
+	
+	[1]
 	
 \end{document}
