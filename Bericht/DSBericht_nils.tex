@@ -8,6 +8,7 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{float}
+\usepackage{wrapfig}
 
 \title{Praktikumsbericht Data Science 1}
 \author{Robin Mayer, Nils Nover, Mariella Zunker}
@@ -74,12 +75,15 @@
 	
 	Zur weiteren Analyse wurden die Datensätze im Anschluss zusammengefügt. Dabei sollten die Stickstoffdaten den Kraftfahrzeugdaten über die Orte zugeordnet werden. Um Verwechslungen bei gleichem Namen zu vermeiden, wurde dazu pro Jahr und Bundesland überprüft, ob eine Stadt im Stickstoff-Datensatz auch im KfZ-Datensatz existiert und bei Übereinstimmung wurden die Daten in neuen Spalten hinzugefügt. Dieses Merging stellte eine größere Herausforderung dar als vermutet, da die Datensätze nicht die gleiche Zuordnung der Werte zu den Orten enthielten wie zunächst angenommen. So bezogen sich die Daten des Kraftfahrtbundesamtes auf die regulären Landkreise, die Messungen des UBA waren jedoch lediglich dem nächsten Ort zugewiesen und nicht der offiziellen Kreisstadt. Diese Zuordnung führte dazu, dass beim Merging ländliche Gebiete weniger gut zugeordnet werden konnten als größere Städte (Abb. \ref{fig:Kategorien}).\\
 	
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=3.5cm]{Kategorien.jpg}
-		\caption{Anzahl an Orten in den Kategorien, die zugeordnet werden konnten, beispielhaft am Jahr 2017.}
-		\label{fig:Kategorien}
-	\end{figure}
+	\begin{wrapfigure}{r}{0.4\textwidth}
+		\vspace{-20pt}
+		\begin{center}
+			\includegraphics[width=4.5cm]{Kategorien.jpg}
+			\caption{Anzahl an Orten in den Kategorien, die zugeordnet werden konnten, beispielhaft am Jahr 2017.}
+			\label{fig:Kategorien}
+		\end{center}
+		\vspace{-20pt}
+	\end{wrapfigure}
 	
 	Zudem ist zu beachten, dass einige Städte in den Datensätzen mehrfach vorkommen (z.B. Weimar Schwanseestr. und Weimar Steubenstr.). Um hier einer Stadt mehrere Messstationen zuordnen zu können wurde zur Vereinfachung der Mittelwert dieser Stationen verwendet. Das Merging beanspruchte einen Großteil der Zeit des gesamten Projektes und konnte dennoch nicht die angestrebte Vollständigkeit erreichen. Wäre mehr Zeit vorhanden, hätten noch mehr Versuche angestrengt werden können, alle Städte in den beiden Datensätzen zuzuordnen. Möglich wäre dabei, die Orte eindeutig mithilfe eines Karten-Tools zu ermitteln und zuzuordnen. Auch auf Ausreißer hätte mehr geachtet werden können. Zudem wäre es noch interessant gewesen, die zeitliche Entwicklung in den Daten zu betrachten und diese in gesellschaftliche Kontexte zu setzen, wie zum Beispiel Gesetzesänderungen, Umweltzonen und lokale Unterschiede. (Outlook hier oder in der Diskussion?)
 	
