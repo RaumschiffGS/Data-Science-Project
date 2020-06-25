@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.25)  25 JUN 2020 14:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.25)  25 JUN 2020 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -682,6 +682,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 29.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 29.
+
+Overfull \hbox (0.78946pt too wide) in paragraph at lines 31--33
+\OT1/cmr/m/n/10.95 la-gen als .xlx-Dateien vor und bein-hal-te-ten In-for-ma-ti
+o-nen zu jah-res-ge-mit-tel-ten Stick-
+ []
+
 <BeispielNO2.png, id=55, 593.21625pt x 115.18031pt>
 File: BeispielNO2.png Graphic file (type png)
 <use BeispielNO2.png>
@@ -704,8 +710,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 55.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 55.
- [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
- has been already used, duplicate ignored
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -900,7 +906,7 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on DSBericht_nils.pdf (7 pages, 337934 bytes).
+Output written on DSBericht_nils.pdf (7 pages, 337948 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  107 compressed objects within 2 object streams
