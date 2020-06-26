@@ -16,4 +16,4 @@ Punkt 2 wird via jupyter notebook "<b>parse_kraftfahrzeuge_single.ipynb</b>" im 
 Die Ergebnisse wurden je als pkl gespeichert und via jupyter notebook "<b>merge_and_analysis.ipynb</b>" im Ordner "Merging_Data_and_Analyis"
 für Punkte 3 und 4 genutzt.
 
-Die finalen noch nicht gegroupten Daten können im Ordner "Merging_Data_and_Analysis" gefunden werden als <b>results_clean.csv</b>
+Die finalen noch nicht gegroupten Daten können im Ordner "Merging_Data_and_Analysis" als <b>results_clean.csv</b> gefunden werden.
