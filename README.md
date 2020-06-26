@@ -15,3 +15,5 @@ Punkt 1 wird via jupyter notebook "<b>parse_no2.ipynb</b>" im Ordner "NO2_Auswer
 Punkt 2 wird via jupyter notebook "<b>parse_kraftfahrzeuge_single.ipynb</b>" im Ordner "Kraftfahrzeugbestand_Auswertung" durchgeführt.  
 Die Ergebnisse wurden je als pkl gespeichert und via jupyter notebook "<b>merge_and_analysis.ipynb</b>" im Ordner "Merging_Data_and_Analyis"
 für Punkte 3 und 4 genutzt.
+
+Die finalen noch nicht gegroupten Daten können im Ordner "Merging_Data_and_Analysis" gefunden werden als <b>results_clean.csv</b>
