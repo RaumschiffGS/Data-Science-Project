@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.25)  26 JUN 2020 08:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.25)  26 JUN 2020 10:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -877,7 +877,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
 Package rerunfilecheck Info: File `DSBericht_nils.out' has not changed.
-(rerunfilecheck)             Checksum: C9FE98B93C4C6CE3811F23DE52104B72;518.
+(rerunfilecheck)             Checksum: 52F12A50A2CBEAAFAA4663AAFEBEACEB;506.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
@@ -893,7 +893,7 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on DSBericht_nils.pdf (6 pages, 329239 bytes).
+Output written on DSBericht_nils.pdf (6 pages, 328377 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  102 compressed objects within 2 object streams

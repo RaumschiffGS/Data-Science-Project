@@ -1,5 +1,5 @@
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {1}Fragestellung und Auswahl der Datens\IeC {\"a}tze}{2}{section.1}
+\contentsline {section}{\numberline {1}Fragestellung und Datens\IeC {\"a}tze}{2}{section.1}
 \contentsline {section}{\numberline {2}Datenaufbereitung}{2}{section.2}
 \contentsline {section}{\numberline {3}Datenauswertung}{3}{section.3}
 \contentsline {subsection}{\numberline {3.1}Betrachtung der beiden Datens\IeC {\"a}tze}{3}{subsection.3.1}

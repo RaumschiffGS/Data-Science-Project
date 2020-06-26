@@ -26,9 +26,9 @@
 	
 	\tableofcontents
 	
-	\section{Fragestellung und Auswahl der Datensätze}
+	\section{Fragestellung und Datensätze}
 	
-	Die Frage der Schädlichkeit von Stickoxiden und deren Zusammenhang mit Dieselfahrzeugen hat in der Vergangenheit die Debatte um die Verkehrswende dominiert. Um einen Überblick darüber zu bekommen, sollten in diesem Projekt Antriebsdaten mit NO2-Werten in Deutschland verglichen werden. \\
+	Die Frage der Schädlichkeit von Stickoxiden und deren Zusammenhang mit Dieselmotoren hat in der Vergangenheit die Debatte um die Verkehrswende dominiert. Um einen Überblick darüber zu bekommen, sollten in diesem Projekt Antriebsdaten mit NO2-Werten verglichen werden. \\
 	Zur Analyse wurden jahrweise .xlx-Datensätze mit NO2-Werten des Umweltbundesamtes (UBA, Abb. \ref{fig:BeispielNO2}, (1)) sowie .pdf-Dateien des Kraftfahrtbundesamtes (KBA, Abb. \ref{fig:BeispielKFZ}. (2)) genutzt.
 	
 	\begin{figure}[h!]
@@ -98,9 +98,9 @@
 		\label{fig:linreginsgesamt}
 	\end{figure}
 	
-	Das Ergebnis wurde anschließend mithilfe von drei Error-Parametern evaluiert. Dabei zeigte sich ein mittlerer absoluter Fehler von 6,21, ein MSE von 66,82 sowie ein R2-Score von 0,13. Die gefundene Regressionsgerade beschreibt den gefundenen Zusammenhang somit eher weniger gut. \\
-	Die Auswertung wurde schließlich noch einmal unter Ausschluss der Ausreißer durch-geführt, brachte jedoch keine nennenswerte Besserung. \\
-	Dann wurde der Anteil an Dieselfahrzeugen betrachtet und gegen die NO2-Werte aufgetragen. Eine grobe Betrachtung des Plots ließ zunächst auf eine eher zufällige Verteilung mit geringfügiger linearer Tendenz schließen. Auch durch lineare Regression konnte hierbei kein starker Zusammenhang festgestellt werden (Abb. \ref{fig:linregdieselanteil}).
+	Das Ergebnis wurde mithilfe von drei Error-Parametern evaluiert. Dabei zeigte sich ein mittlerer absoluter Fehler von 6,21, ein MSE von 66,82 sowie ein R2-Score von 0,13. Die gefundene Regressionsgerade beschreibt den gefundenen Zusammenhang somit weniger gut. \\
+	Die Auswertung wurde schließlich noch einmal unter Ausschluss der Ausreißer durch-geführt, brachte jedoch keine echte Besserung. \\
+	Dann wurde der Anteil an Dieselfahrzeugen betrachtet und gegen die NO2-Werte aufgetragen. Eine grobe Betrachtung des Plots ließ auf eine eher zufällige Verteilung mit geringfügiger linearer Tendenz schließen. Auch durch lineare Regression konnte kein starker Zusammenhang festgestellt werden (Abb. \ref{fig:linregdieselanteil}).
 	
 	\begin{figure}[H]
 		\centering
@@ -109,7 +109,7 @@
 		\label{fig:linregdieselanteil}
 	\end{figure}
 	
-	Die Evaluation ergab hierbei einen absoluten durchschnittlichen Fehler von 6,64, einen MSE von 74,04 sowie einen R2-Score von 0,04, und lässt darauf schließen, dass hier kein sinnvoller Erkenntnisgewinn durch die lineare Regression geschaffen wurde.
+	Die Evaluation ergab einen absoluten durchschnittlichen Fehler von 6,64, einen MSE von 74,04 sowie einen R2-Score von 0,04, und lässt darauf schließen, dass kein sinnvoller Erkenntnisgewinn durch lineare Regression geschaffen wurde.
 	
 	\subsection{Nicht-lineare Regression}
 	
@@ -127,10 +127,10 @@
 	
 	\section{Diskussion}
 	
-	Der Zusammenhang zwischen NO2-Werten und Fahrzeugzahlen wurde durch die Daten zwar gut gezeigt, doch die Regressionsanalyse zeigt, dass für eine genaue Beschreibung zusätzliche Daten benötigt werden. So ist zweifelhaft, ob Autos auch tatsächlich nur an ihrem Meldeort gefahren werden. Gewerbe, die alle Fahrzeuge in einer Stadt melden, können die Ergebnisse verzerren. Es sollten Fahrzeugdaten verwendet werden, die an einer Stelle nachgewiesen wurden. Um statistische Sicherheit zu erlangen, wäre zudem ein Hypothesentest notwendig. \\
+	Der Zusammenhang zwischen NO2-Werten und Fahrzeugzahlen wurde durch die Daten zwar gezeigt, doch die Regressionsanalyse zeigt, dass für eine genaue Beschreibung zusätzliche Daten benötigt werden. So ist zweifelhaft, ob Autos auch tatsächlich nur an ihrem Meldeort gefahren werden. Gewerbe, die alle Fahrzeuge in einer Stadt melden, können die Ergebnisse verzerren. Es sollten Fahrzeugdaten verwendet werden, die an einer Stelle nachgewiesen wurden. Um statistische Sicherheit zu erlangen, wäre zudem ein Hypothesentest notwendig. \\
 	Bei der Analyse der Dieselfahrzeuge wurde kein zuverlässiger Zusammenhang gefunden. Allerdings kann die Einteilung in Diesel/Nicht-Diesel hierbei als zu grob betrachtet werden. \\
-	Insgesamt war vor allem die Datenaufbereitung und das Merging der Datensätze mit Schwierigkeiten verbunden. Mit mehr Zeit wäre es vielleicht möglich gewesen, sich die zeitliche Entwicklung anzusehen. Die Ergebnisse zeigten zwar sinkende NO2-Werte über die Zeit, doch von genauerem Interesse wären auch lokale Unterschiede wie Umweltzonen oder Ballungsräume. \\
-	Auch der Vergleich von urbanen und ländlichen Gebieten konnte aufgrund der Herausforderungen bei der Fusion der Datensätze nicht gezogen werden. Wenn die Städte eindeutig zuzuordnen wären, wäre noch eine genauere Analyse von Einflussfaktoren möglich. \\
+	Insgesamt war vor allem die Datenaufbereitung und das Merging der Datensätze mit Schwierigkeiten verbunden. Mit mehr Zeit wäre es zudem möglich gewesen, sich die zeitliche Entwicklung anzusehen. Die Ergebnisse zeigten zwar sinkende NO2-Werte über die Zeit, doch von genauerem Interesse wären auch lokale Unterschiede wie Umweltzonen oder Ballungsräume. \\
+	Auch der Vergleich von urbanen und ländlichen Gebieten konnte aufgrund der Herausforderungen bei der Fusion der Datensätze nicht gezogen werden. \\
 	
 	\section{Quellen}
 	
