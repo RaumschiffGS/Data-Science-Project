@@ -1,4 +1,4 @@
-# Data Science Project
+#### Data Science Project
  Mariella Zunker, Robin Mayer, Nils Nover
 
 
