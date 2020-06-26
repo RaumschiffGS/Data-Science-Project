@@ -1,9 +1,9 @@
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {1}Fragestellung und Datens\IeC {\"a}tze}{2}{section.1}
-\contentsline {section}{\numberline {2}Datenaufbereitung}{2}{section.2}
-\contentsline {section}{\numberline {3}Datenauswertung}{3}{section.3}
-\contentsline {subsection}{\numberline {3.1}Betrachtung der beiden Datens\IeC {\"a}tze}{3}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Betrachtung der Werte und lineare Regression}{4}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Nicht-lineare Regression}{5}{subsection.3.3}
-\contentsline {section}{\numberline {4}Diskussion}{6}{section.4}
-\contentsline {section}{\numberline {5}Quellen}{6}{section.5}
+\contentsline {section}{\numberline {1}Fragestellung und Datensätze}{2}{section.1}%
+\contentsline {section}{\numberline {2}Datenaufbereitung}{2}{section.2}%
+\contentsline {section}{\numberline {3}Datenauswertung}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Betrachtung der beiden Datensätze}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Betrachtung der Werte und lineare Regression}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Nicht-lineare Regression}{5}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Diskussion}{6}{section.4}%
+\contentsline {section}{\numberline {5}Quellen}{6}{section.5}%
